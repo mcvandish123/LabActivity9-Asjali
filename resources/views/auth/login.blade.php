@@ -12,7 +12,7 @@
 
     <div>
         <label for="email" class="block text-sm font-medium mb-1">Email</label>
-        <input type="email" id="email" name="email" value="{{ old('email') }}" placeholder="nurse.lastname@bakuna.test"
+        <input type="email" id="email" name="email" value="{{ old('email') }}" placeholder="Email"
                class="w-full border border-slate-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-emerald-500">
         @error('email') <p class="text-red-600 text-sm mt-1">{{ $message }}</p> @enderror
     </div>
